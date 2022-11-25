@@ -46,9 +46,8 @@ const Navbar = ({ handleOnclick, location }) => {
           <nav
             open={open}
             location={location.pathname}
-            className={`nav ${styles.nav} ${
-              location.pathname === "/" ? styles.cssRight : styles.cssLeft
-            }`}
+            className={`nav ${styles.nav} ${location.pathname === "/" ? styles.cssRight : styles.cssLeft
+              }`}
           >
             <button className={styles.theme}>
               <DarkMood />
@@ -61,14 +60,14 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <ul className={styles.socials}>
               <li>
-                <a href="https://t.me/mfghir" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/NajmusS65460358" target="_blank" rel="noreferrer">
                   <BsTelegram />
                 </a>
               </li>
 
               <li>
                 <a
-                  href="https://www.instagram.com/mfgh.ir/"
+                  href="https://www.instagram.com/najmus_sakib97/?fbclid=IwAR0eZpN0xy3PohboWDW_JaFpeCrTu_fUC8Mbtmj6JLS21qbU24Aztfm2L1Y"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -78,7 +77,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://www.linkedin.com/in/fateme-ghafari"
+                  href="https://www.linkedin.com/in/najmus-sakib-426349192/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -88,7 +87,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://github.com/mfghir"
+                  href="https://github.com/najmusskb"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -98,7 +97,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://codepen.io/miss_f_g/"
+                  href="/#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -152,9 +151,8 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick} />
               <button value="en" onClick={handleOnclick} />
-              <button value="ko" onClick={handleOnclick} />
+
             </div>
           </nav>
         ) : (
@@ -162,7 +160,6 @@ const Navbar = ({ handleOnclick, location }) => {
             <button className={styles.theme}>
               <DarkMood />
             </button>
-
             <figure className={styles.profile}>
               <img src={img.avatar} alt="profile" />
             </figure>
@@ -170,14 +167,13 @@ const Navbar = ({ handleOnclick, location }) => {
 
             <ul className={styles.socials}>
               <li>
-                <a href="https://t.me/mfghir" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/NajmusS65460358" target="_blank" rel="noreferrer">
                   <BsTelegram />
                 </a>
               </li>
-
               <li>
                 <a
-                  href="https://www.instagram.com/mfgh.ir/"
+                  href="https://www.instagram.com/najmus_sakib97/?fbclid=IwAR0eZpN0xy3PohboWDW_JaFpeCrTu_fUC8Mbtmj6JLS21qbU24Aztfm2L1Y"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -187,7 +183,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://www.linkedin.com/in/fateme-ghafari"
+                  href="https://www.linkedin.com/in/najmus-sakib-426349192/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -197,7 +193,7 @@ const Navbar = ({ handleOnclick, location }) => {
 
               <li>
                 <a
-                  href="https://github.com/mfghir"
+                  href="https://github.com/najmusskb"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -206,7 +202,7 @@ const Navbar = ({ handleOnclick, location }) => {
               </li>
               <li>
                 <a
-                  href="https://codepen.io/miss_f_g/"
+                  href="/#"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -241,6 +237,7 @@ const Navbar = ({ handleOnclick, location }) => {
                   {t("resume")}
                 </Link>
               </li>
+
               <li>
                 <Link
                   to="/portfolios"
@@ -260,9 +257,7 @@ const Navbar = ({ handleOnclick, location }) => {
             </ul>
 
             <div className={styles.btns}>
-              <button value="fa" onClick={handleOnclick}></button>
               <button value="en" onClick={handleOnclick}></button>
-              <button value="ko" onClick={handleOnclick}></button>
             </div>
           </nav>
         )}

@@ -37,15 +37,24 @@ const Resume = () => {
                 <strong>{t("educationTitle")}</strong>
                 <p>{t("educationText")}</p>
               </li>
+              <li>
+                <span>{t("universityyear")}</span>
+                <strong>{t("universitdepertment")}</strong>
+                <p>{t("nameofuniversity")}</p>
+              </li>
+
             </ul>
           </section>
+
+
+
 
           <section className={`languages ${styles.languages}`}>
             <article className="title">
               <h4>{t("experience")}</h4>
               <img src={img.zigzag} alt="zigzag" />
             </article>
-            
+
             <ul>
               <li>
                 <span>{t("experienceYearTwo")}</span>
@@ -63,6 +72,24 @@ const Resume = () => {
                 <strong>{t("experienceTitleThree")}</strong>
                 <p>{t("experienceTextThree")}</p>
               </li>
+            </ul>
+          </section>
+
+
+
+          <section className={`languages ${styles.languages}`}>
+            <article className="title">
+              <h4>{t("publication")}</h4>
+              <img src={img.zigzag} alt="zigzag" />
+            </article>
+
+            <ul>
+              <li>
+                <span>{t("year")}</span>
+                <strong>{t("Title")}</strong>
+                <p>{t("publicationinstitute")}</p>
+              </li>
+
             </ul>
           </section>
         </div>

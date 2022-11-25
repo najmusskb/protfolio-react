@@ -32,6 +32,7 @@ const AboutMe = () => {
                 <li></li>
                 <li></li>
                 <li></li>
+
               </ul>
             </div>
 
@@ -47,24 +48,28 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>SASS</span>
+              <span>Bootstrap</span>
               <ul>
                 <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
+                <li></li>
+
+
               </ul>
             </div>
+
 
             <div>
               <span>Tailwind</span>
               <ul>
                 <li></li>
                 <li></li>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+
               </ul>
             </div>
 
@@ -85,8 +90,9 @@ const AboutMe = () => {
                 <li></li>
                 <li></li>
                 <li></li>
+                <li></li>
                 <li className={styles.false}></li>
-                <li className={styles.false}></li>
+
               </ul>
             </div>
 
@@ -95,9 +101,10 @@ const AboutMe = () => {
               <ul>
                 <li></li>
                 <li></li>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+
               </ul>
             </div>
 
@@ -122,6 +129,36 @@ const AboutMe = () => {
                 <li className={styles.false}></li>
               </ul>
             </div>
+            <div>
+              <span>Node js</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+            <div>
+              <span>Express Js</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
+            <div>
+              <span>MongoDB</span>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li className={styles.false}></li>
+              </ul>
+            </div>
 
             <div>
               <span>Git</span>
@@ -135,17 +172,18 @@ const AboutMe = () => {
             </div>
 
             <div>
-              <span>GraphQL</span>
+              <span>Latex</span>
               <ul>
                 <li></li>
                 <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
               </ul>
+
             </div>
           </section>
-
           <section className={styles.languages}>
             <article className="title">
               <h4>{t("languages")}</h4>
@@ -153,7 +191,7 @@ const AboutMe = () => {
             </article>
 
             <div>
-              <span>{t("farsi")}</span>
+              <span>{t("Bangla")}</span>
               <ul>
                 <li></li>
                 <li></li>
@@ -173,20 +211,47 @@ const AboutMe = () => {
                 <li className={styles.false}></li>
               </ul>
             </div>
-
             <div>
-              <span>{t("korean")}</span>
+              <span>{t("english")}</span>
               <ul>
                 <li></li>
-                <li className={styles.false}></li>
-                <li className={styles.false}></li>
+                <li></li>
+                <li></li>
                 <li className={styles.false}></li>
                 <li className={styles.false}></li>
               </ul>
             </div>
+            <article className="title">
+              <h4>{t("Tools")}</h4>
+              <img src={img.zigzag} alt="zigzag" />
+            </article>
+            <div>
+              <span>1. VS Code</span>
+            </div>
+            <div>
+              <span>2. Github</span>
+            </div>
+            <div>
+              <span>3. Netlify</span>
+            </div>
+            <div>
+              <span>5. Adobe XD</span>
+            </div>
+            <div>
+              <span>6. Figma,</span>
+            </div>
+            <div>
+              <span>7. MS Offices</span>
+            </div>
+
           </section>
+
         </div>
+
+
+
       </section>
+
     </motion.div>
   );
 };
